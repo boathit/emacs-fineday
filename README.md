@@ -2,11 +2,13 @@
 
 ## What is this?
 
-This is my personal emacs configuration on MAC OSX, it's mainly configured to writing and running Julia and Clojure.
+This is my personal emacs configuration on MAC OSX, it's mainly configured for writing and running Julia and Clojure.
 
 ## Themes
 
 Monokai
+
+![julia-mode](./julia-mode.png)
 
 ## Functions
 
