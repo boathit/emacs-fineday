@@ -8,7 +8,13 @@ This is my personal emacs configuration on MAC OSX, it's mainly configured for w
 
 Monokai
 
+**Julia mode**
+
 ![julia-mode](./julia-mode.png)
+
+**Clojure mode**
+
+![clojure-mode](./clojure-mode.png)
 
 ## Functions
 
