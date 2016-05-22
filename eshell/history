@@ -1,0 +1,128 @@
+whoami
+uname -a
+cd
+cd .emacs.d-backup/
+ls
+cd ..
+cd .emacs.d/
+ls
+cd emacs-backup/
+ls
+cd ..
+ls
+cd themes/
+ls
+cd monokai-emacs/
+ls
+cat README.md
+cd ..
+ls
+cd ..
+ls
+git init
+ls
+cd emacs-backup/
+ls
+cd ..
+ls
+ls
+cd url/
+ls
+cd ..
+ls
+cd auto-save-list/
+ls
+cd ..
+ls
+git commit -m "first commit"
+ls
+git add *
+git commit -m "first commit"
+ls
+mv ~/.julia/v0.4/JuMP/examples/.gitignore ./
+cat .gitignore
+git add *
+git commit -m "first commit"
+cd .git/
+ls
+cd ..
+ls
+rm -rf .git/
+ls
+git add *
+git init
+git add *
+git commit -m "first commit"
+git remote add origin https://github.com/boathit/emacs-fineday.git
+git push -u origin master
+ls
+mv ~/Desktop/julia-mode.png ./
+ls
+git add *
+git commit -m "add appearance"
+git push 
+mv ~/Desktop/clojure-mode.png  ./
+ls
+ls
+git add *
+git commit -m "add appearance"
+git push
+du -h clojure-mode.png 
+du -h julia-mode.png 
+ls
+ls
+ls
+cd elpa/
+ls
+cd julia-shell-mode/
+ls
+cd ..
+ls
+cd ..
+ls
+ls
+git add elpa/
+git commit -m "elpa"
+git add elpa/julia-shell-mode/*
+cd elpa/
+cd julia-shell-mode/
+ls
+ls -a
+cd .git/
+ls
+cd ..
+ls
+rm -rf .git/
+ls
+ls -a
+cd ..
+cd ..
+ls
+git add *
+git commit -m "julia-shell-mode"
+ls
+mv elpa/julia-shell-mode/ ./
+ls
+git add *
+git commit -m "julia-shell-mode"
+git push
+ls
+mv julia-shell-mode/ elpa/
+ls
+cd elpa/
+ls
+cd ..
+ls
+git add *
+git commit -m "julia-shell-mode"
+git push
+exit
+ls
+cat init.el 
+ls
+ls
+pwd
+s
+ls
+pwd
+ls

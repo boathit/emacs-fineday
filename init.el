@@ -10,8 +10,8 @@
 (set-face-attribute 'default nil :height 140)
 
 ;; Set initial and default frame size
-(setq initial-frame-alist '((top . 0) (right . 150) (width . 150) (height . 55)))
-(setq default-frame-alist '((top . 0) (right . 150) (width . 150) (height . 55)))
+(setq initial-frame-alist '((top . 0) (right . 100) (width . 100) (height . 45)))
+(setq default-frame-alist '((top . 0) (right . 100) (width . 100) (height . 45)))
 
 ;; Use monokai theme, available in github (https://github.com/owainlewis/emacs-color-themes)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
@@ -47,6 +47,16 @@
 (require 'rainbow-delimiters)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
+;; Better clear screen with Ctrl-L
+(defun eshell-clear-buffer ()
+  "Clear terminal"
+  (interactive)
+  (let ((inhibit-read-only t))
+    (erase-buffer)
+    (eshell-send-input)))
+(add-hook 'eshell-mode-hook
+	  '(lambda()
+	     (local-set-key (kbd "C-l") 'eshell-clear-buffer)))
 
 ;; --------------------------------------------------------------------------
 ;; Language mode

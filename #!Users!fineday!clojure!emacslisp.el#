@@ -1,0 +1,12 @@
+(+ 1 2)
+'(this is a quoted list)
+(+ 2 (+ 3 3))
+(concat "abc" "def")
+(substring "The quick brown fox jumped." 16 19)
+(+ (- 2 3 4)
+   (+ 0 0 0))
+fill-column
+(number-to-string (+ 2 fill-column))
+(buffer-name)
+(buffer-file-name)
+(message "This name of this buffer is: %s." (buffer-name))
