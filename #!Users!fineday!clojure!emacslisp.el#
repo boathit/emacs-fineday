@@ -1,5 +1,7 @@
 (+ 1 2)
 '(this is a quoted list)
+'(this list has (a list inside of it))
+'(this list includes "text between quotation marks.")
 (+ 2 (+ 3 3))
 (concat "abc" "def")
 (substring "The quick brown fox jumped." 16 19)
@@ -10,3 +12,6 @@ fill-column
 (buffer-name)
 (buffer-file-name)
 (message "This name of this buffer is: %s." (buffer-name))
+(insert "hello")
+(+ 2)
+'hello
